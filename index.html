@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smart City Dashboard</title>
 
-    <!-- CSS file -->
     <link rel="stylesheet" href="style.css">
 
     <!-- Chart.js lib for graphs -->
@@ -14,19 +13,15 @@
 
 <body>
 
-    <!-- simple nav bar -->
     <div class="top">
         <div class="title">Smart City Dashboard</div>
-        <!-- <div class="small">Weather + Air Quality (Live)</div> -->
-    </div>
 
+    </div>
     <div class="wrap">
 
-        <!-- city selector row -->
         <div class="sel">
             <label for="cityDropdown">City:</label>
 
-            <!-- select city -->
             <select id="cityDropdown">
                 <option value="delhi">Delhi</option>
                 <option value="mumbai">Mumbai</option>
@@ -38,11 +33,9 @@
                 <option value="sydney">Sydney</option>
             </select>
 
-            <!-- button to load -->
             <button id="refreshBtn">Get Data</button>
         </div>
 
-        <!-- cards row -->
         <div class="cards">
 
             <div class="card">
@@ -77,10 +70,9 @@
 
         </div>
 
-        <!-- updated time -->
         <div id="lastUpdated" class="updated">Last updated: --</div>
 
-        <!-- charts row -->
+
         <div class="charts">
 
             <div class="chartbox">
@@ -95,7 +87,6 @@
 
         </div>
 
-        <!-- weekly data row -->
         <div class="weekly">
 
             <div class="chartbox">
@@ -110,7 +101,6 @@
 
         </div>
 
-        <!-- loading text -->
         <div id="loadingText" class="loading">Loading...</div>
 
         <!-- error message -->
@@ -118,7 +108,6 @@
 
     </div>
 
-    <!-- JS file -->
     <script src="script.js"></script>
 
 </body>

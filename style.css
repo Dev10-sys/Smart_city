@@ -1,14 +1,11 @@
-/* simple reset */
 * { margin:0; padding:0; box-sizing:border-box; font-family:"Segoe UI",Arial; }
 
-/* page bg */
 body {
   background:#0b0c0f;
   color:#e6eef8;
   padding:18px;
 }
 
-/* top bar */
 .top {
   background:#11131a;
   padding:14px 18px;
@@ -17,15 +14,12 @@ body {
   box-shadow:0 6px 20px rgba(13,110,253,0.08);
 }
 .title { font-size:32px; color:#7fc1ff; font-weight:600; }
-/* .small { font-size:18px; color:#9aa6bb; margin-top:3px; } */
 
-/* main wrapper */
 .wrap {
   max-width: 100%;
   padding: 0 40px;
 }
 
-/* selector section */
 .sel {
   display:flex;
   gap:12px;
@@ -58,7 +52,6 @@ body {
   box-shadow:0 6px 18px rgba(13,110,253,0.22);
 }
 
-/* cards */
 .cards{
   display:flex;
   gap:16px;
@@ -82,7 +75,6 @@ body {
 .big{ font-size:32px; color:#fff; margin:6px 0; font-weight:600; }
 .unit{ font-size:12px; color:#8897aa; }
 
-/* charts */
 .charts{
   display:flex;
   gap:20px;
@@ -106,7 +98,6 @@ body {
   color:#7fc1ff;
 }
 
-/* weekly section - similar to charts but allow narrower boxes */
 .weekly{
   display:flex;
   gap:20px;
@@ -117,12 +108,10 @@ body {
 }
 .weekly .chartbox{ min-width:300px; }
 
-/* Ensure canvases get a height so Chart.js has space to render */
 .chartbox canvas{ display:block; width:100%; height:100%; }
 .charts .chartbox{ height:550px; }
 .weekly .chartbox{ height:500px; }
 
-/* loading/error */
 .loading{
   margin-top:18px;
   text-align:center;
